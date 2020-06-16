@@ -14,7 +14,8 @@ Using these datasets, we may find out the population details in U.S. major citie
 ## General Info
 * In the dataset, we could see NYU_500_largest. NYU dataset means cities that are belonged to NYU City Health Dashboard. City Health Dashboard launched in 2018 with data on over 35 measures of health and drivers of health for the 500 largest U.S. cities. So, NYU_500_largest variable will show whether the city belongs to City Health Dashboard or not. 
 https://www.cityhealthdashboard.com/. <br>
-During analysis, from 509 cities of NYU dataset, 495/ 496 cities are covered by ACS1. Most of cities are covered by ACS1 for NYU City Health Dataset. 
+For Our API and data cleaning for City Health Dashboard, it is located on the following address:<br>
+https://github.com/kschnippel/Reference_Place/tree/master/City%20Health%20Dataset<br> During analysis, from 509 cities of NYU dataset, 495/ 496 cities are covered by ACS1. Most of cities are covered by ACS1 for NYU City Health Dataset. 
 * The American Community Survey (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. The American Community Survey (ACS) helps local officials, community leaders, and businesses understand the changes taking place in their communities. It is the premier source for detailed population and housing information about our nation. <br>
 
 * Single-year and multiyear estimates from the ACS are
@@ -44,27 +45,31 @@ Data   for areas with populations of 65,000+ | Data for areas with   populations
 
 ## Column Description (Data Dictionary)
 These are general variable names and its meanings <br>
- Data Dictionary of final data products will show the original variables for Census and calculations if any. Data Dictionary is located in the year folders and it's named **'_dict'** at the end. 
+ * Data Dictionary of final data products will show the original variables for Census and calculations if any. Data Dictionary is located in the year folders and it's named **'_dict'** at the end. 
+ * If there is a calculation of different fields, then I created 'grouping' file to know which variables from Census API are used and how it is calculated. For example, when Age groups are not in Census API and calculate with the summation of different age groups, then "Age_grouping_YYYY.csv" when helps to find out variables and its calculation.
+ 
 
-ET   variable name | Original Variable Description
+
+ET variable name | Original Variable Description
 -- | --
-fips_state | State FIPS CODE
-fips_place | Place FIPS CODE
-fips_state_place | None
-city_name | City Name
-st_name | State Name
+Fips_State | State FIPS CODE
+Fips_Place | Place FIPS CODE
+Fips_State_Place | None
+City_Name | City Name
+St_Name | State Name
 NYU_500_Largest | None
-year | Year of estimate
-census_population | Total population from ACS Survey
-15 to 44 years | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!15 to 44   years
-18 years and over | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!18 years   and over
-65 years and over | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!65 years   and over
-pop_male | Estimate!!Total!!Male
-pop_female | Estimate Total Female
-pop_white | Estimate!!Total!!White alone
-pop_black | Estimate!!Total!!Black or African American alone
-pop_asian | Estimate!!Total!!Asian alone
-pop_AIAN | Estimate!!Total!!American Indian and Alaska Native alone
-pop_NHOPI | Estimate!!Total!!Native Hawaiian and Other Pacific Islander alone
-pop_nonhispanic | Estimate!!Total!!Not Hispanic or Latino
-pop_hispanic | Estimate!!Total!!Hispanic or Latino
+Year | Year of estimate
+Pop_Total | Total population from ACS Survey
+Per_15to44_years(%) | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!15 to 44   years
+Per_18_years_and_over(%) | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!18 years   and over
+Per_65_years_and_over(%) | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!65 years   and over
+Pop_Male | Estimate!!Total!!Male
+Pop_Female | Estimate Total Female
+Pop_White | Estimate!!Total!!White alone
+Pop_Black | Estimate!!Total!!Black or African American alone
+Pop_Asian | Estimate!!Total!!Asian alone
+Pop_AIAN | Estimate!!Total!!American Indian and Alaska Native alone
+Pop_NHOPI | Estimate!!Total!!Native Hawaiian and Other Pacific Islander alone
+Pop_Nonhispanic | Estimate!!Total!!Not Hispanic or Latino
+Pop_Hispanic | Estimate!!Total!!Hispanic or Latino
+

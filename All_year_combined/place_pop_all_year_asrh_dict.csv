@@ -1,0 +1,21 @@
+﻿ET variable name,Example data,Format,Original Variable name,Original Variable Description,Source Table,Source file,Source origin,Calculation or Transformation
+fips_state,36,Text (coded),STATE,State FIPS CODE,2018 National and State Population Estimates,,https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html,None
+fips_place,51000,Text (coded),PLACE,Place FIPS CODE,2018 National and State Population Estimates,,https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html,None
+fips_state_place,3651000,Text (coded),None,None,2018 National and State Population Estimates,,https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html,Combined STATE+PLACE
+city_name,New York city,Text,NAME,City Name,2018 National and State Population Estimates,,https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html,None
+st_name,New York,Text,STNAME,State Name,2018 National and State Population Estimates,,https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html,None
+NYU_500_Largest,1,Boolean,Calculated,None,NYU City Health Dataset,https://github.com/kschnippel/Census/blob/master/Urban/City_Health_data/top_500_pop.xlsx,https://www.cityhealthdashboard.com/,Using coding to check whether a city is in NYU CHD or not.
+year,2018,Integer,YEAR,Year of estimate,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,last 4 digit from Popestimate
+census_population,8398748,Integer,B01001_001E,Total population from ACS Survey,2018 National and State Population Estimates,,https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html,None
+15 to 44 years,43.2,float(Percentage),"S0101_C01_023E, S0101_C02_024E",Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!15 to 44 years,ACS 1-Year Subject Tables,,https://api.census.gov/data/2018/acs/acs1/subject.html,"S0101_C01_023E(2010-2016), S0101_C02_024E(2017-2018)"
+18 years and over,79.3,float(Percentage),"S0101_C01_025E, S0101_C02_026E",Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!18 years and over,ACS 1-Year Subject Tables,,https://api.census.gov/data/2018/acs/acs1/subject.html,"S0101_C01_025E(2010-2016), S0101_C02_026E(2017-2018)"
+65 years and over,14.8,float(Percentage),"S0101_C01_028E, S0101_C02_030E",Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!65 years and over,ACS 1-Year Subject Tables,,https://api.census.gov/data/2018/acs/acs1/subject.html,"S0101_C01_028E(2010-2016), S0101_C02_030E(2017-2018)"
+pop_male,4003933,Integer,B01001_002E,Estimate!!Total!!Male,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_female,4394815,Integer,B01001_026E,Estimate Total Female,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_white,3548402,Integer,B02001_002E,Estimate!!Total!!White alone,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_black,2039194,Integer,B02001_003E,Estimate!!Total!!Black or African American alone,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_asian,1192303,Integer,B02001_005E,Estimate!!Total!!Asian alone,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_AIAN,38946,Integer,B02001_004E,Estimate!!Total!!American Indian and Alaska Native alone,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_NHOPI,5250,Integer,B02001_006E,Estimate!!Total!!Native Hawaiian and Other Pacific Islander alone,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_nonhispanic,5949297,Integer,B03003_002E,Estimate!!Total!!Not Hispanic or Latino,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
+pop_hispanic,2449451,Integer,B03003_003E,Estimate!!Total!!Hispanic or Latino,American Community Survey: 1-Year Estimates: Detailed Tables 1-Year,,https://api.census.gov/data/2018/acs/acs1,None
