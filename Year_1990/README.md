@@ -23,26 +23,31 @@ The following chart is Everytown variables and original variables that I pulled 
 **Race group will be calculated by combining the different race variables from SF1. For race grouping, please use Race_grouping_1990.csv for your reference.** 
 <Br>
 
-ET variable name | Original Variable name | Original Variable Description
+
+
+ET   variable name | Original Variable name | Original Variable Description
 -- | -- | --
-Fips_State | STATE | State FIPS CODE
-Fips_Place | PLACE | Place FIPS CODE
-Fips_State_Place | None | None
-City_Name | NAME | City Name
-St_Name | STNAME | State Name
-NYU_500_Largest | Calculated | None
-Year | YEAR | Year of estimate
-Pop_Total | P0010001 | Total population from ACS Survey
-Per_15to44_years(%) | Calculated |  
-Per_18_years_and_over(%) | Calculated |  
-Per_65_years_and_over(%) | Calculated |  
-Pop_Male | P0050001 | Estimate!!Total!!Male
-Pop_Female | P0050002 | Estimate Total Female
-Pop_White | Calculated |  
-Pop_Black | Calculated |  
-Pop_Asian | Calculated |  
-Pop_AIAN | Calculated |  
-Pop_NHOPI | Calculated |  
-Pop_Nonhispanic | P0090001 | Estimate!!Total!!Not Hispanic or Latino
-Pop_Hispanic | P0080001 | Estimate!!Total!!Hispanic or Latino
+FIPS_STATE | STATE | State FIPS CODE
+FIPS_PLACE | PLACE | Place FIPS CODE
+FIPS_STATE_PLACE | None | None
+CITY_NAME | NAME | City Name
+ST_NAME | STNAME | State Name
+NYU_500_LARGEST | Calculated | None
+YEAR | YEAR | Year of estimate
+POP_TOTAL | P0010001 | Total Persons,Population Subjects
+PER_AGE_15TO44 | Calculated
+PER_AGE_18PLUS | Calculated
+PER_AGE_65PLUS | Calculated
+POP_MALE | P0050001 | Estimate!!Total!!Male
+POP_FEMALE | P0050002 | Estimate Total Female
+POP_WHITE | Calculated
+POP_BLACK | Calculated
+POP_ASIAN | Calculated
+POP_AIAN | Calculated
+POP_NHOPI | Calculated
+POP_NONHISPANIC | P0090001 | Estimate!!Total!!Not Hispanic or Latino
+POP_HISPANIC | P0080001 | Estimate!!Total!!Hispanic or Latino
+
+
+
 

@@ -28,26 +28,29 @@ For age grouping, please use Age_grouping_2005to2009.csv for your reference.**
 <br>
 
 
+
 ET variable name | Original Variable name | Original Variable Description
 -- | -- | --
-Fips_State | STATE | State FIPS CODE
-Fips_Place | PLACE | Place FIPS CODE
-Fips_State_Place | None | None
-City_Name | NAME | City Name
-St_Name | STNAME | State Name
-NYU_500_Largest | Calculated | None
-Year | YEAR | Year of estimate
-Pop_Total | B01001_001E | Total population from ACS Survey
-Per_15to44_years(%) | Calculated | None
-Per_18_years_and_over(%) | Calculated | None
-Per_65_years_and_over(%) | Calculated | None
-Pop_Male | B01001_002E | Estimate!!Total!!Male
-Pop_Female | B01001_026E | Estimate Total Female
-Pop_White | B02001_002E | Estimate!!Total!!White alone
-Pop_Black | B02001_003E | Estimate!!Total!!Black or African American alone
-Pop_Asian | B02001_005E | Estimate!!Total!!Asian alone
-Pop_AIAN | B02001_004E | Estimate!!Total!!American Indian and Alaska Native alone
-Pop_NHOPI | B02001_006E | Estimate!!Total!!Native Hawaiian and Other Pacific Islander alone
-Pop_Nonhispanic | C03001_002E, B03003_002E | Estimate!!Total!!Not Hispanic or Latino
-Pop_Hispanic | C03001_003E, B03003_003E | Estimate!!Total!!Hispanic or Latino
+FIPS_STATE | STATE | State FIPS CODE
+FIPS_PLACE | PLACE | Place FIPS CODE
+FIPS_STATE_PLACE | None | None
+CITY_NAME | NAME | City Name
+ST_NAME | STNAME | State Name
+NYU_500_LARGEST | Calculated | None
+YEAR | YEAR | Year of estimate
+POP_TOTAL | B01001_001E | Total population from ACS Survey
+PER_AGE_15TO44 | Calculated | None
+PER_AGE_18PLUS | Calculated | None
+PER_AGE_65PLUS | Calculated | None
+POP_MALE | B01001_002E | Estimate!!Total!!Male
+POP_FEMALE | B01001_026E | Estimate Total Female
+POP_WHITE | B02001_002E | Estimate!!Total!!White alone
+POP_BLACK | B02001_003E | Estimate!!Total!!Black or African American alone
+POP_ASIAN | B02001_005E | Estimate!!Total!!Asian alone
+POP_AIAN | B02001_004E | Estimate!!Total!!American Indian and Alaska Native alone
+POP_NHOPI | B02001_006E | Estimate!!Total!!Native Hawaiian and Other Pacific Islander alone
+POP_NONHISPANIC | C03001_002E, B03003_002E | Estimate!!Total!!Not Hispanic or Latino
+POP_HISPANIC | C03001_003E, B03003_003E | Estimate!!Total!!Hispanic or Latino
+
+
 

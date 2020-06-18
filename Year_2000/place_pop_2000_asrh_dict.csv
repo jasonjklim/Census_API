@@ -1,49 +1,21 @@
 ﻿ET variable name,Example data,Format,Original Variable name,Original Variable Description,Source Table,Source file,Source origin,Calculation or Transformation,
-Fips_State,36,Text (coded),State (FIPS),State (FIPS),Geocode,https://github.com/kschnippel/Reference_Place/blob/master/Geocodes/all-geocodes-v2018.csv,https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html,None,
-Fips_Place,51000,Text (coded),PLACE,Place FIPS CODE,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Fips_State_Place,3651000,Text (coded),None,None,,,,Combined STATE+PLACE,
-City_Name,New York city,Text,NAME,City Name,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-St_Name,New York,Text,NAME,State Name,Geocode,,https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html,None,
-NYU_500_Largest,1,Boolean,Calculated,None,NYU City Health Dataset,https://github.com/kschnippel/Census/blob/master/Urban/City_Health_data/top_500_pop.xlsx,https://www.cityhealthdashboard.com/,Using coding to check whether a city is in NYU CHD or not.,
-Year,2000,Integer,,,2000 Decennial: Summary File 1,,,From API year,
-Pop_Total,8008278,Integer,P001001,Population:Total,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Per_15to44_years(%),46.72,float(Percentage),Calculated,None,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,"100*(sum(P012006
-P012007
-P012008
-P012009
-P012010
-P012011
-P012012
-P012013
-P012014
-P012030
-P012031
-P012032
-P012033
-P012034
-P012035
-P012036
-P012037
-P012038)/P001001)",* Please use Age_grouping_2000 for each variable label
-Per_18_years_and_over(%),75.77,float(Percentage),P005001,RACE 18+:Total,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Per_65_years_and_over(%),11.71,float(Percentage),Calculated,None,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,"100*(sum(P012020
-P012021
-P012022
-P012023
-P012024
-P012025
-P012044
-P012045
-P012046
-P012047
-P012048
-P012049)/P001001)",* Please use Age_grouping_2000 for each variable label
-Pop_Male,3794204,Integer,P012002,SEX BY AGE:Total Male,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_Female,4214074,Integer,P012026,SEX BY AGE:Total Female,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_White,3576385,Integer,P007002,RACE:White alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_Black,2129762,Integer,P007003,RACE:Bl/AfAm alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_Asian,787047,Integer,P007005,RACE:Asian alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_AIAN,41289,Integer,P007004,RACE:AmInd/AK alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_NHOPI,5430,Integer,P007006,RACE:HI alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_Nonhispanic,5847724,Integer,P004003,HISPANIC:Total notHispanic or Latino,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
-Pop_Hispanic,2160554,Integer,P004002,HISPANIC:Total Hispanic or Latino,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+FIPS_STATE,36,Text (coded),State (FIPS),State (FIPS),Geocode,https://github.com/kschnippel/Reference_Place/blob/master/Geocodes/all-geocodes-v2018.csv,https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html,None,
+FIPS_PLACE,51000,Text (coded),PLACE,Place FIPS CODE,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+FIPS_STATE_PLACE,3651000,Text (coded),None,None,,,,Combined STATE+PLACE,
+CITY_NAME,New York city,Text,NAME,City Name,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+ST_NAME,New York,Text,NAME,State Name,Geocode,,https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html,None,
+NYU_500_LARGEST,1,Boolean,Calculated,None,NYU City Health Dataset,https://github.com/kschnippel/Census/blob/master/Urban/City_Health_data/top_500_pop.xlsx,https://www.cityhealthdashboard.com/,Using coding to check whether a city is in NYU CHD or not.,
+YEAR,2000,Integer,,,2000 Decennial: Summary File 1,,,From API year,
+POP_TOTAL,8008278,Integer,P001001,Population:Total,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+PER_AGE_15TO44,46.72,float(Percentage),Calculated,None,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,,* Please use Age_grouping_2000 for each variable label
+PER_AGE_18PLUS,75.77,float(Percentage),P005001,RACE 18+:Total,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+PER_AGE_15TO44,11.71,float(Percentage),Calculated,None,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,,* Please use Age_grouping_2000 for each variable label
+POP_MALE,3794204,Integer,P012002,SEX BY AGE:Total Male,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_FEMALE,4214074,Integer,P012026,SEX BY AGE:Total Female,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_WHITE,3576385,Integer,P007002,RACE:White alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_BLACK,2129762,Integer,P007003,RACE:Bl/AfAm alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_ASIAN,787047,Integer,P007005,RACE:Asian alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_AIAN,41289,Integer,P007004,RACE:AmInd/AK alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_NHOPI,5430,Integer,P007006,RACE:HI alone,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_NONHISPANIC,5847724,Integer,P004003,HISPANIC:Total notHispanic or Latino,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,
+POP_HISPANIC,2160554,Integer,P004002,HISPANIC:Total Hispanic or Latino,2000 Decennial: Summary File 1,,https://api.census.gov/data/2000/sf1/variables.html,None,

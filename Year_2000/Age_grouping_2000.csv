@@ -1,5 +1,5 @@
 ﻿Our Variable,Variable Name,Variable Label,Calculation or Transformation
-Per_15to44_years(%),P012006,SEX BY AGE:Male:15 to 17,"100*(sum(P012006
+PER_AGE_15TO44,P012006,SEX BY AGE:Male:15 to 17,"100*(sum(P012006
 P012007
 P012008
 P012009
@@ -35,7 +35,7 @@ P012038)/P001001)"
 ,P012037,SEX BY AGE:Female:35 to 39,
 ,P012038,SEX BY AGE:Female:40 to 44,
 ,,,
-Per_65_years_and_over(%),P012020,SEX BY AGE:Male:65'&'66,"100*(sum(P012020
+PER_AGE_15TO44,P012020,SEX BY AGE:Male:65'&'66,"100*(sum(P012020
 P012021
 P012022
 P012023
@@ -121,6 +121,3 @@ P012049)/P001001)"
 ,P012047,SEX BY AGE:Female:75 to 79,
 ,P012048,SEX BY AGE:Female:80 to 84,
 ,P012049,SEX BY AGE:Female:85 yrs'&'over,
-,,,
-,,,
-,,,

@@ -21,26 +21,27 @@ For age grouping, please use Age_grouping_2000.csv for your reference.**
 
 
 
-ET variable name | Original Variable name | Original Variable Description
+
+ET   variable name | Original Variable name | Original Variable Description
 -- | -- | --
-Fips_State | State (FIPS) | State (FIPS)
-Fips_Place | PLACE | Place FIPS CODE
-Fips_State_Place | None | None
-City_Name | NAME | City Name
-St_Name | NAME | State Name
-NYU_500_Largest | Calculated | None
-Year |   |  
-Pop_Total | P001001 | Population:Total
-Per_15to44_years(%) | Calculated | None
-Per_18_years_and_over(%) | P005001 | RACE 18+:Total
-Per_65_years_and_over(%) | Calculated | None
-Pop_Male | P012002 | SEX BY AGE:Total Male
-Pop_Female | P012026 | SEX BY AGE:Total Female
-Pop_White | P007002 | RACE:White alone
-Pop_Black | P007003 | RACE:Bl/AfAm alone
-Pop_Asian | P007005 | RACE:Asian alone
-Pop_AIAN | P007004 | RACE:AmInd/AK alone
-Pop_NHOPI | P007006 | RACE:HI alone
-Pop_Nonhispanic | P004003 | HISPANIC:Total notHispanic or Latino
-Pop_Hispanic | P004002 | HISPANIC:Total Hispanic or Latino
+FIPS_STATE | State (FIPS) | State (FIPS)
+FIPS_PLACE | PLACE | Place FIPS CODE
+FIPS_STATE_PLACE | None | None
+CITY_NAME | NAME | City Name
+ST_NAME | NAME | State Name
+NYU_500_LARGEST | Calculated | None
+YEAR |   |  
+POP_TOTAL | P001001 | Population:Total
+PER_AGE_15TO44 | Calculated | None
+PER_AGE_18PLUS | P005001 | RACE 18+:Total
+PER_AGE_65PLUS | Calculated | None
+POP_MALE | P012002 | SEX BY AGE:Total Male
+POP_FEMALE | P012026 | SEX BY AGE:Total Female
+POP_WHITE | P007002 | RACE:White alone
+POP_BLACK | P007003 | RACE:Bl/AfAm alone
+POP_ASIAN | P007005 | RACE:Asian alone
+POP_AIAN | P007004 | RACE:AmInd/AK alone
+POP_NHOPI | P007006 | RACE:HI alone
+POP_NONHISPANIC | P004003 | HISPANIC:Total notHispanic or Latino
+POP_HISPANIC | P004002 | HISPANIC:Total Hispanic or Latino
 

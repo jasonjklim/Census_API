@@ -9,7 +9,7 @@ This is Census data of U.S. major cities from 1990-2018 using API. The purpose o
 - Race - White, Black, Asian, American Indian and Alaska Native, Native Hawaiian and Other Pacific Islander 
 - Ethnicity - Hispanic, nonhispanic
 
-Using these datasets, we may find out the population details in U.S. major cities. 
+Each Year folder has CSV and Excel versions of Census API of the above categories for the U.S. Major cities. For the data fields, please check dictionary files in each folder.
 
 ## General Info
 * In the dataset, we could see NYU_500_largest. NYU dataset means cities that are belonged to NYU City Health Dashboard. City Health Dashboard launched in 2018 with data on over 35 measures of health and drivers of health for the 500 largest U.S. cities. So, NYU_500_largest variable will show whether the city belongs to City Health Dashboard or not. 
@@ -50,26 +50,28 @@ These are general variable names and its meanings <br>
  
 
 
-ET variable name | Original Variable Description
+
+ET   variable name | Original Variable Description
 -- | --
-Fips_State | State FIPS CODE
-Fips_Place | Place FIPS CODE
-Fips_State_Place | None
-City_Name | City Name
-St_Name | State Name
-NYU_500_Largest | None
-Year | Year of estimate
-Pop_Total | Total population from ACS Survey
-Per_15to44_years(%) | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!15 to 44   years
-Per_18_years_and_over(%) | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!18 years   and over
-Per_65_years_and_over(%) | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!65 years   and over
-Pop_Male | Estimate!!Total!!Male
-Pop_Female | Estimate Total Female
-Pop_White | Estimate!!Total!!White alone
-Pop_Black | Estimate!!Total!!Black or African American alone
-Pop_Asian | Estimate!!Total!!Asian alone
-Pop_AIAN | Estimate!!Total!!American Indian and Alaska Native alone
-Pop_NHOPI | Estimate!!Total!!Native Hawaiian and Other Pacific Islander alone
-Pop_Nonhispanic | Estimate!!Total!!Not Hispanic or Latino
-Pop_Hispanic | Estimate!!Total!!Hispanic or Latino
+FIPS_STATE | State FIPS CODE
+FIPS_PLACE | Place FIPS CODE
+FIPS_STATE_PLACE | None
+CITY_NAME | City Name
+ST_NAME | State Name
+NYU_500_LARGEST | None
+YEAR | Year of estimate
+POP_TOTAL | Total population from Census
+PER_AGE_15TO44 | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!15 to 44   years
+PER_AGE_18PLUS | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!18 years   and over
+PER_AGE_65PLUS | Estimate!!Percent!!Total population!!SELECTED AGE CATEGORIES!!65 years   and over
+POP_MALE | Estimate!!Total!!Male
+POP_FEMALE | Estimate Total Female
+POP_WHITE | Estimate!!Total!!White alone
+POP_BLACK | Estimate!!Total!!Black or African American alone
+POP_ASIAN | Estimate!!Total!!Asian alone
+POP_AIAN | Estimate!!Total!!American Indian and Alaska Native alone
+POP_NHOPI | Estimate!!Total!!Native Hawaiian and Other Pacific Islander alone
+POP_NONHISPANIC | Estimate!!Total!!Not Hispanic or Latino
+POP_HISPANIC | Estimate!!Total!!Hispanic or Latino
+
 
